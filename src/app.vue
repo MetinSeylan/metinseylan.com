@@ -168,6 +168,9 @@
         sockets: {
             data(data){
                 this.data = data.data;
+
+                if (data.frame == 0) this.status = true;
+
                 if(this.player.status == 1) this.player.frame = data.frame;
 
                 this.player.timeFrame = data.frame;
