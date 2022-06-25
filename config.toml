@@ -1,0 +1,4 @@
+baseURL = 'https://metin.sh/'
+languageCode = 'en-us'
+title = 'Metin Seylan'
+theme = 'blank'
